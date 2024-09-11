@@ -43,7 +43,6 @@ main{
 .conteudo{
    height: 100%;
    width: 50%;
-   background-color: tomato;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -58,9 +57,11 @@ main{
 .acao button{
     height: 100px;
     width: 400px;
-    font-size: 64px;
     background-color: black;
+    font-size: 48px;
     color: white;
+    
+
 }
 .social div{
     height: 74px;
@@ -78,6 +79,8 @@ main{
     background-color: lightgrey;
 }
 footer{
-    background-color: bisque;
-    height: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
