@@ -18,6 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 64px;
+    background-color: #0cb7f2;
 }
 header{
     height: 200px;
@@ -26,9 +27,11 @@ header{
     align-items: center;
 }
 .logo{
-    height: 64px;
-    width: 64px;
-    background-color: lightgrey;
+    background-image: url(./img/produtora.svg);
+    background-size: 80px;
+    height: 70px;
+    width: 80px;
+    background-repeat: no-repeat; 
    
 }
 .menu ul{
@@ -49,32 +52,40 @@ main{
 }
 .conteudo h1{
     font-size: 96px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .conteudo p{
    width: 90%;
    font-size: 48px;
+   font-style: inherit;
+   font-weight: 100;
 }
-.acao button{
-    height: 100px;
-    width: 400px;
+.acao{
+    height: 90px;
+    width: 300px;
     background-color: black;
-    font-size: 48px;
+    border-radius: 10vh;
+    font-size: 60px;
     color: white;
+    font-weight: 200;
 }
 .social div{
     height: 74px;
     width: 64px;
     border-radius: 50%;
-    background-color: lightgrey;
 }
 .social{
    display: flex;
    justify-content: space-between;
 }
 .imagem{
-    height: 100%;
+    background-image: url("./img/album\ travis2.jpg");
+    background-size: 1300px;
+    height: 90%;
     width: 50%;
-    background-color: lightgrey;
+    display: flex;
+    justify-content: flex-end;
+    background-repeat: no-repeat; 
 }
 footer{
     height: 100px;
